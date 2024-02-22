@@ -4,21 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: black;
 } 
-
 /*container-large*/
 .container-large {
     width: 600px;
     margin: auto;
-  
-
 }
-
 /*HEADER SECTION*/
-
 /* header */
 header {
     width: 100%;
@@ -37,53 +31,40 @@ header {
     border: 1px dashed black;
     display: flex;
 }
-
 /*CHILD NAV BAR*/
 /* logo */
 .logo {
     padding: 3px;
     width: 25%;
     border: 1px dashed black;
-
 }
-
+/*span*/
 span {
-    
     font-size: 13px;
 }
-
+/*nav-lin*/
 .nav-link {
     padding: 3px;
     border: 1px dashed black;
     width: 50%;
     text-align: center;
 }
-
+/*li*/
 li {
     display: inline;
 }
-
+/*a*/
 a { 
     text-decoration: none;
     font-size: 13px;
 }
-
+/*nav-login*/
 .nav-login {
     padding: 3px;
     width: 25%;
     border: 1px dashed black;
     text-align: right;
-    
-    
-
 }
-
-.login {
-    
-}
-
-/* section-large */
-
 /*MAIN SECTION*/
 .section-large {
     /*debug*/
@@ -93,9 +74,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-
-
-
 /* section-large-w */
 .section-large-w {
     /*debug*/
@@ -113,7 +91,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 /* section-large-grey-green  */
 .section-large-grey-green {
@@ -124,9 +101,7 @@ a {
      justify-content: center;
      align-items: center;
 }
-
 /*SECTION CHILD SELECTOR*/
-
 /* large-child */
 .large-child {
     width: 50%;
@@ -134,19 +109,13 @@ a {
     height:130px ;
     background-color:rgb(238 130 238) ;
     border: 1px dashed black;
-    
-    
 }
-
 /* container-child */
 .container-child {
     width: 70%;
-    /*debug*/
-    /* height: 180px; */
     display: flex;
     align-items: center;
     border: 1px dashed black;
-   
 }
 
 .child-left {
@@ -165,9 +134,7 @@ a {
     height: 170px;
     background-color:rgb(255 192 203) ;
     border: 1px dashed black;
-    
 }
-
 /*child-gren*/
 .container-child-green {
     width: 70%;
@@ -177,12 +144,8 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px dashed black;
-   
 }
-
-
 /*FOOTER SECTION*/
-
 /* section-footer-top */
 .section-footer-top {
     /*debug*/
@@ -201,7 +164,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 /*FOOTER CHILD SECTION*/
 
 .child-pink {
@@ -210,7 +172,6 @@ a {
     height: 170px;
     background-color:rgb(240 128 128) ;
     border-right: 1px dashed black;
-    
 }
 
 .child-lightblue {
@@ -220,7 +181,6 @@ a {
     background-color: rgb(32 178 170);
     border-right: 1px dashed white ;
 }
-
 /*FOOTER CHILD SECTION BOTTOM*/
 
 .container-child-lastgrey {
@@ -232,7 +192,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .last-pink-child-left {
