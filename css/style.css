@@ -195,10 +195,11 @@ a {
 }
 /* section-footer-bottom */
 .section-footer-bottom {
-    /*debug*/
-    height: 20px;
     background-color: rgb(35 39 42);
     border-bottom: 1px solid rgb(211 211 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*FOOTER CHILD SECTION*/
@@ -219,6 +220,34 @@ a {
     background-color: rgb(32 178 170);
     border-right: 1px dashed white ;
 }
+
+/*FOOTER CHILD SECTION BOTTOM*/
+
+.container-child-lastgrey {
+    width: 70%;
+    /*debug*/
+    height: 40px;
+    background-color: rgb(127 255 212);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.last-pink-child-left {
+    border: 1px dashed black;
+    background-color:rgb(255 182 193) ;
+}
+
+.last-pink-child-right {
+    border: 1px dashed black;
+    background-color:rgb(255 182 193) ; 
+}
+
+
+
+
 
 
 
