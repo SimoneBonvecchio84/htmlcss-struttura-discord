@@ -12,7 +12,6 @@ body {
 /*container-large*/
 .container-large {
     width: 600px;
-    border: 1px solid black;
     margin: auto;
   
 
@@ -35,8 +34,13 @@ header {
     /*debug*/
     height: 20px;
     background-color:rgb(218 165 32) ;
-
+    border: 1px dashed black;
+   
 }
+
+/*CHILD NAV BAR*/
+
+
 /* section-large */
 
 /*MAIN SECTION*/
@@ -49,13 +53,7 @@ header {
     align-items: center;
 }
 
-/* large-child */
-.large-child {
-    width: 50%;
-    /*debug*/
-    height:120px ;
-    background-color:rgb(238 130 238) ;
-}
+
 
 /* section-large-w */
 .section-large-w {
@@ -79,36 +77,68 @@ header {
 /* section-large-grey-green  */
 .section-large-grey-green {
      /*debug*/
-     height: 400px;
+     /* height: 400px; */
      background-color:rgb(211 211 211) ;
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 /*SECTION CHILD SELECTOR*/
+
+/* large-child */
+.large-child {
+    width: 50%;
+    /*debug*/
+    height:130px ;
+    background-color:rgb(238 130 238) ;
+    border: 1px dashed black;
+    
+    
+}
 
 /* container-child */
 .container-child {
     width: 70%;
     /*debug*/
-    height: 180px;
+    /* height: 180px; */
     display: flex;
     align-items: center;
+    border: 1px dashed black;
+   
 }
 
 .child-left {
     width:60% ;
     /*debug*/
-    height: 180px;
+    height: 170px;
     background-color:rgb(30 144 255) ;
+    border: 1px dashed black;
+    
     
 }
 
 .child-right {
     width: 40%;
     /*debug*/
-    height: 180px;
+    height: 170px;
     background-color:rgb(255 192 203) ;
+    border: 1px dashed black;
+    
 }
+
+/*child-gren*/
+.container-child-green {
+    width: 70%;
+    /*debug*/
+    height: 300px;
+    background-color:rgb(34 139 34) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+   
+}
+
 
 /*FOOTER SECTION*/
 
@@ -118,6 +148,9 @@ header {
     height: 200px;
     background-color: rgb(35 39 42);
     border-bottom: 1px solid rgb(211 211 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* section-footer-bottom */
 .section-footer-bottom {
@@ -126,4 +159,27 @@ header {
     background-color: rgb(35 39 42);
     border-bottom: 1px solid rgb(211 211 211);
 }
+
+/*FOOTER CHILD SECTION*/
+
+.child-pink {
+    width: 25%;
+    /*debug*/
+    height: 170px;
+    background-color:rgb(240 128 128) ;
+    border-right: 1px dashed black;
+    
+}
+
+.child-lightblue {
+    width: 15%;
+    /*debug*/
+    height: 170px;
+    background-color: rgb(32 178 170);
+    border-right: 1px dashed white ;
+}
+
+
+
+
 
