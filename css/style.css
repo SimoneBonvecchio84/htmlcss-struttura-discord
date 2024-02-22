@@ -1,6 +1,66 @@
-/* RESET*/
+/* reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+} 
+
+/*container-large*/
+.container-large {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+  
+
+}
+
+header {
+    width: 100%;
+    /*debug*/
+    height: 20px;
+    background-color: aqua;
+    display: flex;
+}
+
+.section-large {
+    /*debug*/
+    height: 180px;
+    background-color:rgb(0 0 139) ;
+}
+
+.section-large-w {
+    /*debug*/
+    height: 200px;
+    background-color: white;
+}
+
+.section-large-g {
+    /*debug*/
+    height: 200px;
+    background-color:rgb(211 211 211) ;
+}
+
+.section-large-grey-green {
+     /*debug*/
+     height: 400px;
+     background-color:rgb(211 211 211) ;
+
+}
+
+.section-footer-top {
+    /*debug*/
+    height: 200px;
+    background-color: rgb(35 39 42);
+    border-bottom: 1px solid rgb(211 211 211);
+}
+
+.section-footer-bottom {
+    /*debug*/
+    height: 20px;
+    background-color: rgb(35 39 42);
+    border-bottom: 1px solid rgb(211 211 211);
 }
